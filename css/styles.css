@@ -9,6 +9,7 @@ Universal Styling
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 @font-face{
@@ -45,6 +46,9 @@ header a {
 header li {
   display: inline-block;
   margin: 0px;
+}
+
+li:not(.button){
   margin-right: 30px;
 }
 
@@ -68,6 +72,10 @@ ul li {
 li a {
   text-decoration: none;
   text-align: left;
+}
+
+li:not(.button){
+  margin-right: 30px;
 }
 
 h1 {
@@ -136,6 +144,14 @@ hr {
   margin-right: auto;
 }
 
+footer {
+  color: black;
+  text-transform: uppercase;
+  margin-right: 20px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
 /*===============================
 
 
@@ -156,7 +172,7 @@ Position Styling
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
-  margin-left: 950px;
+  margin-left: 980px;
 }
 
 .text-container {
@@ -242,9 +258,4 @@ Position Styling
 .columntwo {
   flex: 25%;
   padding: 5px;
-}
-
-.footer-nav {
-  color: #000000;
-  text-transform: uppercase;  
 }
