@@ -24,34 +24,34 @@ nav a:hover {
 }
 
 header {
-    background: #000000;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    position: fixed;
-    z-index: 100;
-    width: 100%;
-    top: 0;
+  background: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
 }
 
 header a {
-    color: white;
-    text-decoration: none;
-    font-family: 'Helvetica Neue';
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Helvetica Neue';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
 }
 
 header li {
-    display: inline-block;
-    margin: 0px;
-    margin-right: 30px;
+  display: inline-block;
+  margin: 0px;
+  margin-right: 30px;
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 
@@ -94,6 +94,9 @@ h3 {
   font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
   color: #000000;
+  font-size: 40px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 h4 {
@@ -107,6 +110,7 @@ p {
   font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
   color: #000000;
+  font-size: 18px;
 }
 
 section {
@@ -124,10 +128,6 @@ img {
   max-width: 800px;
   margin: auto;
   display: block;
-}
-
-span {
-  font-weight: bold
 }
 
 hr {
@@ -161,20 +161,23 @@ Position Styling
 
 .text-container {
   position: absolute;
+  max-width: 800px;
   top: 0;
   color: #ffffff;
   padding: 0px;
-  margin-top: 335px;
+  margin-top: 340px;
   text-align: center;
+  margin-left: 200px;
 }
 
 .sub-container {
   position: absolute;
+  max-width: 800px;
   top: 0;
   color: #ffffff;
   padding: 0px;
   margin-top: 415px;
-  margin-left: 200px;
+  margin-left: 400px;
   text-align: center;
   letter-spacing: 10px;
 }
@@ -186,25 +189,20 @@ Position Styling
   text-align: center;
   display: inline-block;
   margin-top: 380px;
-  margin-left: 300px;
+  margin-left: 500px;
 }
 
 .welcome {
   margin-top: 300px;
-  font-size: 40px;
   color: #000000;
-  letter-spacing: 6px;
-  text-transform: uppercase;
 }
 
 .welcome-text {
   margin-top: 30px;
   line-height: 26px;
   letter-spacing: 0.5px;
-  font-size: 18px;
   color: #000000;
 }
-
 
 .text-left-right {
     text-align: right;
@@ -216,12 +214,23 @@ Position Styling
     position: absolute;
     font-size: 40px;
     color: #000000;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     text-transform: uppercase;
+    margin-left: 180px;
 }
 .byline {
     font-size: 40px;
     color: #000000;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     text-transform: uppercase;
+    margin-right: 150px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
 }
