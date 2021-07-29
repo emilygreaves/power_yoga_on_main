@@ -234,3 +234,17 @@ Position Styling
   flex: 50%;
   padding: 5px;
 }
+
+.rowtwo {
+  display: flex;
+}
+
+.columntwo {
+  flex: 25%;
+  padding: 5px;
+}
+
+.footer-nav {
+  color: #000000;
+  text-transform: uppercase;  
+}
