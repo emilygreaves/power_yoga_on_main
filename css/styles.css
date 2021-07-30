@@ -114,6 +114,12 @@ h4 {
   color: #ffffff;
 }
 
+h5 {
+  color: #000000;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
 p {
   font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
@@ -145,7 +151,7 @@ hr {
 }
 
 footer a {
-  color: black;
+  color: #000000;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   font-size: 14px;
