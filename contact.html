@@ -2,10 +2,17 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Power Yoga on Main</title>
-<!--link to styles.css file-->
-<link type="text/css" rel="stylesheet" href="css/styles.css" />
-</head>
+
+    <!--favicon-->
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <title>Contact</title>
+
+    <!--CSS-->
+    <link type="text/css" rel="stylesheet" href="css/contact.css" />
+  </head>
 
 
 
@@ -20,8 +27,74 @@
         <li><a href="studio.html">Studio</a></li>
         <li><a href="instructors.html">Instructors</a></li>
         <li><a href="pricing.html">Pricing</a></li>
-        <li class="button"><a href="book.html">Book A Class</a></li>
+        <li class="button"><a href="https://clients.mindbodyonline.com/classic/mainclass?studioid=13090&tg=&vt=&lvl=&stype=-7&view=&trn=0&page=&catid=&prodid=&date=7%2f29%2f2021&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=0&loc=1">Book A Class</a></li>
     </ul>
   </nav>
 </header>
 </div>
+
+        <main class="container">
+
+            <div>
+              <h1>Contact Us</h1>
+              <div class="waving-hand">
+                <img src="images/waving-hand.png" alt="Waving Hand" title="Waving Hand" style="width:20%">
+              </div>
+              <p>We'd love to hear from you!</p>
+            </div>
+
+
+            <form id="contact-form" name="contact-form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+              <div class="first-name input-section">
+               <label for="firstname" class="label_input_wrap">First Name:
+               </label>
+               <input type="text" name="req_firstname" id="firstname" placeholder="ex.   Loki" />
+              </div>
+
+              <div class="last-name input-section">
+               <label for="lastname" class="label_input_wrap">Last Name:
+               </label>
+               <input type="text" name="req_lastname" id="lastname" placeholder="ex. Laufeyson" />
+              </div>
+
+              <div class="email input-section">
+                <label for="email" class="label_input_wrap">Email:
+                </label>
+                <input type="email" name="req_email" id="email" placeholder="godofmischief@gmail.com"/>
+              </div>
+
+              <div class="telephone input-section">
+                <label for="telephone"
+                class="label_input_wrap">Telephone:
+                </label>
+                <input type="tel" name="telephone" id="telephone"
+                placeholder="555-555-555" />
+              </div>
+
+              <div class="comments input-section">
+                <label for="comments" class="<label_input_wrap">Comments:
+                </label>
+                <br>
+                <textarea name="comments" id="comments" cols="55" rows="5"
+                placeholder="I am burdened with glorious purpose!"></textarea>
+              </div>
+
+              <div class="reset input-section">
+                <input type="reset" value="Refresh" />
+              </div>
+
+              <div class="submit input-section">
+                <input type="submit" value="Submit" />
+              </div>
+
+
+            </form>
+
+          </main>
+
+
+
+      </body>
+
+</html>
