@@ -123,17 +123,6 @@ p {
   font-size: 18px;
 }
 
-section {
-  background-color: #fbf9f947
-}
-
-section {
-  max-width: 800px;
-  margin-top: 20px;
-  padding: 20px;
-  text-align: left;
-}
-
 img {
   max-width: 800px;
   margin: auto;
@@ -200,7 +189,7 @@ Position Styling
   color: #ffffff;
   padding: 0px;
   margin-top: 415px;
-  margin-left: 400px;
+  margin-left: 380px;
   text-align: center;
   letter-spacing: 10px;
 }
@@ -212,11 +201,10 @@ Position Styling
   text-align: center;
   display: inline-block;
   margin-top: 380px;
-  margin-left: 500px;
+  margin-left: 480px;
 }
 
 .welcome {
-  margin-top: 300px;
   color: #000000;
 }
 
