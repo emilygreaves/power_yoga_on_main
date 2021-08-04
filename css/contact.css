@@ -107,9 +107,11 @@ h4 {
 }
 
 h5 {
-  color: #000000;
-  font-size: 11px;
-  text-transform: uppercase;
+  color: #888888;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-weight: normal;
 }
 
 p {
@@ -181,4 +183,9 @@ Position Styling
   border-radius: none;
   font-family: 'Helvetica Neue';
   color: #000000;
+}
+
+.contact-info {
+  margin-top: 50px;
+  margin-left: 10px;
 }
