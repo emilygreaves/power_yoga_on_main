@@ -7,8 +7,8 @@ Universal Styling
 ==============================*/
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: 'Helvetica Neue', sans-serif;
 }
 
@@ -16,6 +16,26 @@ Universal Styling
   font-family: 'Helvetica Neue';
   src: url('../fonts/helveticaneue.ttf') format('truetype');
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+p {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+/*===========================================
+*
+*             HEADER
+*
+============================================*/
+
 
 nav a:hover {
   text-decoration: underline;
@@ -37,7 +57,6 @@ header {
 header a {
   color: white;
   text-decoration: none;
-  font-family: 'Helvetica Neue';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 14px;
@@ -68,7 +87,6 @@ li a {
 }
 
 h1 {
-  font-family: 'Helvetica Neue', sans-serif;
   text-align: left;
   text-decoration: none;
   color: #000000;
@@ -81,26 +99,25 @@ h1 {
 }
 
 h2 {
-  font-family: 'Helvetica Neue', sans-serif;
   text-align: left;
   color: #ffffff;
   letter-spacing: 2px;
   font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 10px;
+  font-weight: normal;
 }
 
 h3 {
-  font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
   color: #000000;
   font-size: 40px;
   letter-spacing: 4px;
   text-transform: uppercase;
+  font-weight: normal;
 }
 
 h4 {
-  font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
   letter-spacing: 2px;
   color: #ffffff;
@@ -115,7 +132,6 @@ h5 {
 }
 
 p {
-  font-family: 'Helvetica Neue', sans-serif;
   text-align: left;
   color: #000000;
   font-size: 18px;
