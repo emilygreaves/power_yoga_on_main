@@ -180,6 +180,11 @@ Position Styling
   margin: 0 auto;
 }
 
+.contact-form input,
+.contact-form textarea {
+  border-radius: none;
+}
+
 .label_input_wrap {
   display: block;
 }
@@ -187,6 +192,9 @@ Position Styling
 .reset input,
 .submit input {
   padding: 5px 20px;
+  background-color: #000000;
+  border-style: none;
+  color: #ffffff;
 }
 
 .reset,
@@ -196,7 +204,6 @@ Position Styling
 
 .input-section {
   margin: 10px;
-  border-radius: none;
   font-family: 'Helvetica Neue';
   color: #000000;
 }
@@ -204,4 +211,9 @@ Position Styling
 .contact-info {
   margin-top: 50px;
   margin-left: 10px;
+}
+
+.map {
+  display: flex;
+  margin-left: 600px;
 }
