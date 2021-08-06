@@ -134,7 +134,6 @@ header nav a:hover {
   text-decoration: underline;
   color: #ffffff;
   transition: .3s;
-  opacity: 50%;
 }
 
 .space_header {
@@ -151,6 +150,18 @@ header nav a:hover {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 100px;
+}
+
+.left-side {
+  display: inline-block;
+  width: 55%;
+}
+
+
+.right-side {
+  display: inline-block;
+  width: 35%;
+  margin-left: 50px;
 }
 
 ul li {
@@ -172,9 +183,9 @@ li a {
 }
 
 .form {
-  max-width: 500px;
+  max-width: 600px;
   padding: 20px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .contact-form input,
@@ -206,13 +217,8 @@ li a {
 }
 
 .contact-info {
-  margin-top: 50px;
-  margin-left: 10px;
+  margin-top: 160px;
   text-align: center;
-}
-
-.map {
-  display: inline-block
 }
 
 /*===========================================
