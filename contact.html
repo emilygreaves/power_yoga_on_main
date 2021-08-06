@@ -45,27 +45,29 @@
 
         <main class="container">
 
-            <span class="form-block">
-              <h1>Contact Us<span class="wave">👋</span></h1>
+
+          <section>
+            <div class="left-side">
+              <h1>Say Hello<span class="wave">👋</span></h1>
               <p>We'd love to hear from you!</p>
                 <form id="contact-form" name="contact-form" method="POST" action="form.php" onsubmit="return validateForm(this)">
 
                   <div class="first-name input-section">
                    <label for="firstname" class="label_input_wrap">First Name:
                    </label>
-                   <input type="text" name="req_firstname" id="firstname" placeholder="ex.   Loki" />
+                   <input type="text" name="req_firstname" id="firstname" placeholder="" />
                   </div>
 
                   <div class="last-name input-section">
                    <label for="lastname" class="label_input_wrap">Last Name:
                    </label>
-                   <input type="text" name="req_lastname" id="lastname" placeholder="ex. Laufeyson" />
+                   <input type="text" name="req_lastname" id="lastname" placeholder="" />
                   </div>
 
                   <div class="email input-section">
                     <label for="email" class="label_input_wrap">Email:
                     </label>
-                    <input type="email" name="req_email" id="email" placeholder="godofmischief@gmail.com"/>
+                    <input type="email" name="req_email" id="email" placeholder=""/>
                   </div>
 
                   <div class="telephone input-section">
@@ -73,7 +75,7 @@
                     class="label_input_wrap">Telephone:
                     </label>
                     <input type="tel" name="telephone" id="telephone"
-                    placeholder="555-555-555" />
+                    placeholder="" />
                   </div>
 
                   <div class="comments input-section">
@@ -81,7 +83,7 @@
                     </label>
                     <br>
                     <textarea name="comments" id="comments" cols="55" rows="5"
-                    placeholder="I am burdened with glorious purpose!"></textarea>
+                    placeholder=""></textarea>
                   </div>
 
                   <div class="reset input-section">
@@ -92,11 +94,12 @@
                     <input type="submit" value="Submit" />
                   </div>
                 </form>
+            </div>
 
-                  <span class="location"><iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.6801356591604!2d-88.01218168426084!3d41.79210667876966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e4e2868718e21%3A0xdaa53b23c67a85e8!2s5223%20Main%20St%2C%20Downers%20Grove%2C%20IL%2060515!5e0!3m2!1sen!2sus!4v1628108123436!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                  </span>
-
-            </span>
+            <div class="right-side">
+              <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2974.6801356591604!2d-88.01218168426084!3d41.79210667876966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e4e2868718e21%3A0xdaa53b23c67a85e8!2s5223%20Main%20St%2C%20Downers%20Grove%2C%20IL%2060515!5e0!3m2!1sen!2sus!4v1628108123436!5m2!1sen!2sus" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </section>
 
               <div class="contact-info">
                 <h5>5223 Main Street, Downers Grove, IL 60515<br>312-800-3061 | poweryogaonmain@hotmail.com</h5>
