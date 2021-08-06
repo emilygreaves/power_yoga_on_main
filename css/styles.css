@@ -13,15 +13,14 @@
 
 @font-face{
   font-family: 'Helvetica Neue';
-  src: url('../fonts/helveticaneue.ttf') format('truetype');
+  src: url('../fonts/helvetica-neue.ttf') format('truetype');
 }
 
 h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5, {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: normal;
 }
@@ -44,6 +43,7 @@ h2 {
   text-align: left;
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-weight: normal;
   margin-bottom: 10px;
   font-size: 20px;
   color: #ffffff;
@@ -60,7 +60,9 @@ h3 {
 
 h4 {
   text-align: center;
+  font-weight: normal;
   letter-spacing: 2px;
+  font-size: 16px;
   color: #ffffff;
 }
 
@@ -71,9 +73,15 @@ h5 {
   color: #000000;
 }
 
+h6 {
+  font-weight: normal;
+  font-size: 26px;
+  color: #000000;
+}
+
 p {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   color: #000000;
 }
 
@@ -81,6 +89,9 @@ hr {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  height: 1px;
+  background-color: #aaaaaa;
+  border: none;
 }
 
 .button {
@@ -100,7 +111,6 @@ hr {
 }
 
 .container {
-  max-width: 1200px;
   margin: 0 auto;
   padding-top: 100px;
 }
@@ -142,7 +152,6 @@ header nav a:hover {
   text-decoration: underline;
   color: #ffffff;
   transition: .3s;
-  opacity: 50%;
 }
 
 .space_header {
@@ -151,7 +160,7 @@ header nav a:hover {
 
 /*===========================================
 *
-*            HERO IMAGE SECTION
+*               HERO SECTION
 *
 ============================================*/
 
@@ -161,15 +170,14 @@ body {
   background-size: 100%;
 }
 
+.hero-text-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .text-container {
-  position: absolute;
-  max-width: 800px;
-  top: 0;
-  color: #ffffff;
-  padding: 0px;
-  margin-top: 340px;
-  text-align: center;
-  margin-left: 200px;
+  margin-top: 240px;
+  margin-left: 20px;
 }
 
 .sub-container {
@@ -178,8 +186,8 @@ body {
   top: 0;
   color: #ffffff;
   padding: 0px;
-  margin-top: 415px;
-  margin-left: 380px;
+  margin-top: 420px;
+  margin-left: 405px;
   text-align: center;
   letter-spacing: 10px;
 }
@@ -190,58 +198,106 @@ body {
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
-  margin-top: 380px;
-  margin-left: 480px;
+  margin-left: 500px;
+  margin-top: 80px;
+}
+
+.learn-more:hover {
+  background-color: #000000;
+  transition: .3s;
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 /*===========================================
 *
-*            BODY SECTION
+*            Welcome Section
 *
 ============================================*/
 
+.welcome-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .welcome {
   color: #000000;
+  text-align: center;
 }
 
 .welcome-text {
   margin-top: 30px;
-  line-height: 26px;
+  line-height: 30px;
   letter-spacing: 0.5px;
   color: #000000;
 }
 
-.text-left-right {
-  text-align: right;
-  position: relative;
+/*===========================================
+*
+*              Levels Section
+*
+============================================*/
+
+.levels-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-side {
+  display: inline-block;
+  width: 45%;
   margin-top: 100px;
-}
-.left-text {
-  left: 0;
-  position: absolute;
-  font-size: 40px;
-  color: #000000;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  margin-left: 180px;
+  padding-left: 40px;
+  text-align: center;
+  align: center;
 }
 
-.byline {
-    font-size: 40px;
-    color: #000000;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-right: 150px;
+.right-side {
+  display: inline-block;
+  width: 45%;
+  margin-top: 100px;
+  padding-left: 40px;
+  text-align: center;
+  align: center;
 }
 
-.row {
-  display: flex;
+/*===========================================
+*
+*               Quote Section
+*
+============================================*/
+
+.quote-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quotation-mark {
   text-align: center;
 }
 
-.column {
-  flex: 50%;
-  padding: 30px;
+.quotation {
+  line-height: 40px;
+  text-align: center;
+}
+
+.jennifer {
+  font-style: italic;
+  font-weight: 350;
+  font-size: 26px;
+  color: #aaaaaa;
+}
+
+/*===========================================
+*
+*             Gallery Section
+*
+============================================*/
+
+.gallery {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .rowtwo {
@@ -256,9 +312,14 @@ body {
 
 /*===========================================
 *
-*            FOOTER
+*                 FOOTER
 *
 ============================================*/
+
+.last-section {
+  max-width: 1500px;
+  margin: 0 auto;
+}
 
 footer a {
   text-transform: uppercase;
@@ -279,6 +340,10 @@ footer nav a:hover {
   opacity: 50%;
 }
 
+.space_tiny {
+  width: 20px;
+}
+
 .space_small {
   width: 50px;
 }
@@ -288,7 +353,7 @@ footer nav a:hover {
 }
 
 .space_lg {
-  width: 805px;
+  width: 1080px;
 }
 
 .signature {
