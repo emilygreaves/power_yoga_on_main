@@ -244,6 +244,14 @@ body {
   margin: 0 auto;
 }
 
+.caption {
+  color: #000000;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
 .left-side {
   display: inline-block;
   width: 45%;
