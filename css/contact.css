@@ -136,10 +136,6 @@ header nav a:hover {
   transition: .3s;
 }
 
-.space_header {
-  width: 940px;
-}
-
 /*===========================================
 *
 *                  BODY
@@ -179,7 +175,6 @@ li a {
   padding: 15px 32px;
   text-align: center;
   display: inline-block;
-  margin-left: 980px;
 }
 
 .form {

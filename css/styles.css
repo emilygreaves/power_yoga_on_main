@@ -40,11 +40,9 @@ h1 {
 }
 
 h2 {
-  text-align: left;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: normal;
-  margin-bottom: 10px;
   font-size: 20px;
   color: #ffffff;
 }
@@ -94,25 +92,8 @@ hr {
   border: none;
 }
 
-.button {
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-}
-
-.button:hover {
-  background-color: #000000;
-  transition: .3s;
-  border: none;
-  text-decoration: none;
-  color: #ffffff;
-}
-
 .container {
   margin: 0 auto;
-  padding-top: 100px;
 }
 
 /*===========================================
@@ -154,8 +135,24 @@ header nav a:hover {
   transition: .3s;
 }
 
+.button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #000000;
+  transition: .3s;
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .space_header {
-  width: 940px;
+  width: 950px;
 }
 
 /*===========================================
@@ -176,20 +173,13 @@ body {
 }
 
 .text-container {
-  margin-top: 240px;
-  margin-left: 20px;
+  margin-top: 350px;
+  margin-left: 10px;
 }
 
 .sub-container {
-  position: absolute;
-  max-width: 800px;
-  top: 0;
-  color: #ffffff;
-  padding: 0px;
-  margin-top: 420px;
+  margin-top: 10px;
   margin-left: 405px;
-  text-align: center;
-  letter-spacing: 10px;
 }
 
 .learn-more {
@@ -199,7 +189,7 @@ body {
   text-align: center;
   display: inline-block;
   margin-left: 500px;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .learn-more:hover {
