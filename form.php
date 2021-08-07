@@ -9,7 +9,7 @@ $form->processForm(
 
 	'engreaves.com' // Put you mail domain here
 	,
-	'Web Design Principles' // Put your site name / form name here
+	'Power Yoga on Main' // Put your site name / form name here
 	,
 	'egreaves@ufl.edu' // Where will the form notification be sent?
 	,
